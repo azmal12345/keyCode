@@ -1,0 +1,858 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.img{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    img{
+        width: 20%;
+        max-width: 100%;
+        height: 130px;
+        display: none;
+    }
+}
+
+/* ********************** logdding container **************************** */
+
+.logding_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5%;
+    /* display: none; */
+}
+
+.logding_box svg{
+    margin-top: 40px;
+    position: fixed;
+    // top: 0px;
+    width: 73%;
+    max-width: 100%;
+    // height: 100%;
+}
+
+#logo_one,#logo_two,#logo_three,#logo_four,#logo_five,#logo_six,#logo_seven,#logo_eight,#logo_nine,#logo_ten,#logo_one1
+,#logo_one2,#logo_one3,#logo_one4,#logo_one5,#logo_one6,#logo_one7,#logo_one8,#logo_one9,#logo_one10,#logo_one11,#logo_one12,#logo_one13
+,#logo_one14,#logo_one15,#logo_one16,#logo_one17,#logo_one18,#logo_one19,#logo_one20,#logo_one21,#logo_one22,#logo_one23,#logo_one24,#logo_one25
+,#logo_one26,#logo_one27,#logo_one28,#logo_one29,#logo_one30,#logo_one31,#logo_one32,#logo_one33,#logo_one34,#logo_one35,#logo_one36,#logo_one37,#logo_one38
+,#logo_one39,#logo_one40,#logo_one41,#logo_one42,#logo_one43{
+    fill-opacity: 0;
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 2000;
+}
+
+#logo_one{
+    animation: one1 5s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one1 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_two{
+    animation: one2 5.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one2 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_three{
+    animation: one3 6s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one3 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_four{
+    animation: one4 6.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one4 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_five{
+    animation: one5 5s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one5 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_six{
+    animation: one6 6s ease-in-out;
+    stroke: red;
+}
+
+@keyframes one6 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_seven{
+    animation: one7 7s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one7 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_eight{
+    animation: one8 8s ease-in-out;
+    stroke: red;
+}
+
+@keyframes one8 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_nine{
+    animation: one9 9s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one9 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_ten{
+    animation: one10 10s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one10 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one1{
+    animation: one11 11s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one11 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one2{
+    animation: one12 12s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one12 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one3{
+    animation: one13 13s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one13 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one4{
+    animation: one14 14s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one14 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one5{
+    animation: one15 15s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one15 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one6{
+    animation: one16 16s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one16 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one7{
+    animation: one17 17s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one17 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one8{
+    animation: one18 18s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one18 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one9{
+    animation: one19 18.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one19 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one10{
+    animation: one20 19s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one20 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one11{
+    animation: one21 19.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one21 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one12{
+    animation: one22 20s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one22 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one13{
+    animation: one23 20.50s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one23 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one14{
+    animation: one24 21s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one24 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one15{
+    animation: one25 21.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one25 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one16{
+    animation: one26 22s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one26 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one17{
+    animation: one27 22.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one27 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one18{
+    animation: one28 23s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one28 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one19{
+    animation: one29 23.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one29 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one20{
+    animation: one30 24s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one30 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one21{
+    animation: one31 24.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one31 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one22{
+    animation: one32 25s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one32 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one23{
+    animation: one32 24.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one33 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one24{
+    animation: one34 25s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one34 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one25{
+    animation: one35 25.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one35 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one26{
+    animation: one36 26s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one36 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one27{
+    animation: one37 26.50s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one37 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one28{
+    animation: one38 27s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one38 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one29{
+    animation: one39 27.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one39 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one30{
+    animation: one40 28s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one40 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one31{
+    animation: one41 28.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one41 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one32{
+    animation: one42 29s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one42 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one33{
+    animation: one43 29.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one43 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one34{
+    animation: one44 29.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one44 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one35{
+    animation: one45 29.50s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one45 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one36{
+    animation: one46 29.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one46 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one37{
+    animation: one47 29.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one47 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one38{
+    animation: one48 29.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one48 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one39{
+    animation: one49 29.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one49 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one40{
+    animation: one50 29.50s ease-in-out;
+    stroke: orange;
+}
+
+@keyframes one50 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one41{
+    animation: one51 29.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one51 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one42{
+    animation: one52 29.50s ease-in-out;
+    stroke: yellow;
+}
+
+@keyframes one52 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#logo_one43{
+    animation: one53 29.50s ease-in-out;
+    stroke: white;
+}
+
+@keyframes one53 {
+    0%{
+        stroke-dashoffset: 2000;
+    }
+
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
